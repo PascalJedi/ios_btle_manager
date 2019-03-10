@@ -1,0 +1,398 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03E9B09B223567F900851430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B09A223567F900851430 /* AppDelegate.swift */; };
+		03E9B09D223567F900851430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B09C223567F900851430 /* ViewController.swift */; };
+		03E9B0A0223567F900851430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9B09E223567F900851430 /* Main.storyboard */; };
+		03E9B0A3223567F900851430 /* btleManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0A1223567F900851430 /* btleManager.xcdatamodeld */; };
+		03E9B0A5223567FB00851430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03E9B0A4223567FB00851430 /* Assets.xcassets */; };
+		03E9B0A8223567FB00851430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03E9B0A6223567FB00851430 /* LaunchScreen.storyboard */; };
+		03E9B0B32235687000851430 /* btleMgr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0B22235687000851430 /* btleMgr.swift */; };
+		03E9B0B522356BDA00851430 /* btleDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0B422356BDA00851430 /* btleDev.swift */; };
+		03E9B0B722356D8400851430 /* btleMgrNotifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0B622356D8400851430 /* btleMgrNotifications.swift */; };
+		03E9B0B9223571AB00851430 /* btleDiscDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0B8223571AB00851430 /* btleDiscDev.swift */; };
+		03E9B0BC2235788700851430 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03E9B0BB2235788700851430 /* Array.swift */; };
+		03E9B0BE2235825300851430 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 03E9B0BD2235825300851430 /* .gitignore */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03E9B097223567F900851430 /* btleManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btleManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03E9B09A223567F900851430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		03E9B09C223567F900851430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		03E9B09F223567F900851430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03E9B0A2223567F900851430 /* btleManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = btleManager.xcdatamodel; sourceTree = "<group>"; };
+		03E9B0A4223567FB00851430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03E9B0A7223567FB00851430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03E9B0A9223567FB00851430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03E9B0B22235687000851430 /* btleMgr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btleMgr.swift; sourceTree = "<group>"; };
+		03E9B0B422356BDA00851430 /* btleDev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btleDev.swift; sourceTree = "<group>"; };
+		03E9B0B622356D8400851430 /* btleMgrNotifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btleMgrNotifications.swift; sourceTree = "<group>"; };
+		03E9B0B8223571AB00851430 /* btleDiscDev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = btleDiscDev.swift; sourceTree = "<group>"; };
+		03E9B0BB2235788700851430 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		03E9B0BD2235825300851430 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../.gitignore; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03E9B094223567F900851430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03E9B08E223567F900851430 = {
+			isa = PBXGroup;
+			children = (
+				03E9B0BD2235825300851430 /* .gitignore */,
+				03E9B099223567F900851430 /* btleManager */,
+				03E9B098223567F900851430 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03E9B098223567F900851430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03E9B097223567F900851430 /* btleManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03E9B099223567F900851430 /* btleManager */ = {
+			isa = PBXGroup;
+			children = (
+				03E9B0BA2235787C00851430 /* Extensions */,
+				03E9B0B12235685500851430 /* Managers */,
+				03E9B09A223567F900851430 /* AppDelegate.swift */,
+				03E9B09C223567F900851430 /* ViewController.swift */,
+				03E9B09E223567F900851430 /* Main.storyboard */,
+				03E9B0A4223567FB00851430 /* Assets.xcassets */,
+				03E9B0A6223567FB00851430 /* LaunchScreen.storyboard */,
+				03E9B0A9223567FB00851430 /* Info.plist */,
+				03E9B0A1223567F900851430 /* btleManager.xcdatamodeld */,
+			);
+			path = btleManager;
+			sourceTree = "<group>";
+		};
+		03E9B0B12235685500851430 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				03E9B0B22235687000851430 /* btleMgr.swift */,
+				03E9B0B422356BDA00851430 /* btleDev.swift */,
+				03E9B0B622356D8400851430 /* btleMgrNotifications.swift */,
+				03E9B0B8223571AB00851430 /* btleDiscDev.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		03E9B0BA2235787C00851430 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				03E9B0BB2235788700851430 /* Array.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03E9B096223567F900851430 /* btleManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03E9B0AC223567FB00851430 /* Build configuration list for PBXNativeTarget "btleManager" */;
+			buildPhases = (
+				03E9B093223567F900851430 /* Sources */,
+				03E9B094223567F900851430 /* Frameworks */,
+				03E9B095223567F900851430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = btleManager;
+			productName = btleManager;
+			productReference = 03E9B097223567F900851430 /* btleManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03E9B08F223567F900851430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Randal Erman";
+				TargetAttributes = {
+					03E9B096223567F900851430 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 03E9B092223567F900851430 /* Build configuration list for PBXProject "btleManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03E9B08E223567F900851430;
+			productRefGroup = 03E9B098223567F900851430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03E9B096223567F900851430 /* btleManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03E9B095223567F900851430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9B0BE2235825300851430 /* .gitignore in Resources */,
+				03E9B0A8223567FB00851430 /* LaunchScreen.storyboard in Resources */,
+				03E9B0A5223567FB00851430 /* Assets.xcassets in Resources */,
+				03E9B0A0223567F900851430 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03E9B093223567F900851430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03E9B0BC2235788700851430 /* Array.swift in Sources */,
+				03E9B0B32235687000851430 /* btleMgr.swift in Sources */,
+				03E9B0A3223567F900851430 /* btleManager.xcdatamodeld in Sources */,
+				03E9B09D223567F900851430 /* ViewController.swift in Sources */,
+				03E9B0B522356BDA00851430 /* btleDev.swift in Sources */,
+				03E9B0B9223571AB00851430 /* btleDiscDev.swift in Sources */,
+				03E9B0B722356D8400851430 /* btleMgrNotifications.swift in Sources */,
+				03E9B09B223567F900851430 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03E9B09E223567F900851430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9B09F223567F900851430 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03E9B0A6223567FB00851430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03E9B0A7223567FB00851430 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03E9B0AA223567FB00851430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		03E9B0AB223567FB00851430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03E9B0AD223567FB00851430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGG6A575RP;
+				INFOPLIST_FILE = btleManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FocalWellness.btleManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03E9B0AE223567FB00851430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RGG6A575RP;
+				INFOPLIST_FILE = btleManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FocalWellness.btleManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03E9B092223567F900851430 /* Build configuration list for PBXProject "btleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9B0AA223567FB00851430 /* Debug */,
+				03E9B0AB223567FB00851430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03E9B0AC223567FB00851430 /* Build configuration list for PBXNativeTarget "btleManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E9B0AD223567FB00851430 /* Debug */,
+				03E9B0AE223567FB00851430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		03E9B0A1223567F900851430 /* btleManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				03E9B0A2223567F900851430 /* btleManager.xcdatamodel */,
+			);
+			currentVersion = 03E9B0A2223567F900851430 /* btleManager.xcdatamodel */;
+			path = btleManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 03E9B08F223567F900851430 /* Project object */;
+}
